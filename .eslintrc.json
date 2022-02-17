@@ -1,0 +1,28 @@
+{
+	"env": {
+		"node": true,
+    "es6": true
+	},
+	"extends": ["eslint:recommended", "prettier"],
+	"globals": {
+		"process": true
+	},
+	"parserOptions": {
+		"ecmaVersion": 8,
+		"ecmaFeatures": { "modules": true },
+		"sourceType": "module"
+	},
+	"plugins": ["prettier"],
+	"rules": {
+		"prettier/prettier": ["error"],
+		"no-unused-vars": [
+			"error",
+			{
+				"varsIgnorePattern": "^_",
+				"argsIgnorePattern": "^_"
+			}
+		],
+		"no-throw-literal":"off",
+		"yoda": ["error", "always", { "onlyEquality": true }]
+	}
+}
