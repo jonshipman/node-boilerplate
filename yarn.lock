@@ -14,20 +14,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@eslint/eslintrc@npm:1.2.3"
+"@eslint/eslintrc@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@eslint/eslintrc@npm:1.3.0"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
     espree: ^9.3.2
-    globals: ^13.9.0
+    globals: ^13.15.0
     ignore: ^5.2.0
     import-fresh: ^3.2.1
     js-yaml: ^4.1.0
     minimatch: ^3.1.2
     strip-json-comments: ^3.1.1
-  checksum: 48e7b7ac05cd514eee2ebb1d487600f0dd637ac21f63605e353cff6a08c7223275fe4f571d15ee9deae4e78c53edc73369ffcbed15fba4dfc1806179dbf4dc85
+  checksum: a1e734ad31a8b5328dce9f479f185fd4fc83dd7f06c538e1fa457fd8226b89602a55cc6458cd52b29573b01cdfaf42331be8cfc1fec732570086b591f4ed6515
   languageName: node
   linkType: hard
 
@@ -157,23 +157,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:^4.0.0-rc.5":
-  version: 4.0.0-rc.5
-  resolution: "@yarnpkg/core@npm:4.0.0-rc.5"
+"@yarnpkg/core@npm:^4.0.0-rc.14":
+  version: 4.0.0-rc.14
+  resolution: "@yarnpkg/core@npm:4.0.0-rc.14"
   dependencies:
     "@arcanis/slice-ansi": ^1.1.1
     "@types/semver": ^7.1.0
     "@types/treeify": ^1.0.0
-    "@yarnpkg/fslib": ^3.0.0-rc.5
-    "@yarnpkg/libzip": ^3.0.0-rc.5
-    "@yarnpkg/parsers": ^3.0.0-rc.5
-    "@yarnpkg/shell": ^4.0.0-rc.5
+    "@yarnpkg/fslib": ^3.0.0-rc.14
+    "@yarnpkg/libzip": ^3.0.0-rc.14
+    "@yarnpkg/parsers": ^3.0.0-rc.14
+    "@yarnpkg/shell": ^4.0.0-rc.14
     camelcase: ^5.3.1
     chalk: ^3.0.0
     ci-info: ^3.2.0
     clipanion: ^3.2.0-rc.10
     cross-spawn: 7.0.3
-    diff: ^4.0.1
+    diff: ^5.1.0
     globby: ^11.0.1
     got: ^11.7.0
     lodash: ^4.17.15
@@ -186,47 +186,47 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^1.13.0
     tunnel: ^0.0.6
-  checksum: b63291445ae13206c7e3803885f93c4c6d53b1c7d3116518c99ab68f3e5f468417d58840fc2e088efc3452e2cf8727b8d78d68a0e2dcd7a4495e99d1c6ddc478
+  checksum: 78aa2a32a9800d96a77a0d937c5b3da31401e38db0c46bdf01e9a58d0a3a8f95ad7f913df44969c97c81c3b9252ece8fce08a5a34d547463424b93dd6d122ceb
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.0.0-rc.5":
-  version: 3.0.0-rc.5
-  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.5"
+"@yarnpkg/fslib@npm:^3.0.0-rc.14":
+  version: 3.0.0-rc.14
+  resolution: "@yarnpkg/fslib@npm:3.0.0-rc.14"
   dependencies:
-    "@yarnpkg/libzip": ^3.0.0-rc.5
+    "@yarnpkg/libzip": ^3.0.0-rc.14
     tslib: ^1.13.0
-  checksum: 5ae06fdeadc85f530b0fb4144b2f53f0323dc2c92ec631997d8425c8bf428b16c7a65e1c151b433db8d8fbb548d3c9f9cb3be3a6fc6ff2d901528c8b6088d75e
+  checksum: 37819f98105581c8c00d69b0eea84a182add1c76d0df70be82270f8933c9044c98204141777b034862008b9cbfc71792af598ec25a2d9196b63ce4569cbe6b05
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.0.0-rc.5":
-  version: 3.0.0-rc.5
-  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.5"
+"@yarnpkg/libzip@npm:^3.0.0-rc.14":
+  version: 3.0.0-rc.14
+  resolution: "@yarnpkg/libzip@npm:3.0.0-rc.14"
   dependencies:
     "@types/emscripten": ^1.39.6
     tslib: ^1.13.0
-  checksum: e4d492c5befe77640120f0c986d3f8102201d9c8013d337a1a9e3fff7dd60cffff6cd6c8172f962de33f062833e75a84fadc47507d8ad31d3a36c5cdd93e5505
+  checksum: cec1c8654c0e065c6ac3fb8eac9b71517a860043c81d27a896d6b0051b2e1d12c130cdcbed63590e33f8dd82fe03e4a9b7d7b0abeb966b87b3d247cfeb911891
   languageName: node
   linkType: hard
 
-"@yarnpkg/parsers@npm:^3.0.0-rc.5":
-  version: 3.0.0-rc.5
-  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.5"
+"@yarnpkg/parsers@npm:^3.0.0-rc.14":
+  version: 3.0.0-rc.14
+  resolution: "@yarnpkg/parsers@npm:3.0.0-rc.14"
   dependencies:
     js-yaml: ^3.10.0
     tslib: ^1.13.0
-  checksum: dc7af6b7f4d494133f86fb7c2685459e292cbe1b3dc1a65c1ee17383a0802ce2bf6fb662a6aed99d644d634fd083c1694bad6cf9eb350596596498302a63294f
+  checksum: 9e6bdb99628f5b4c44af485843be9070bd49a7a5eed4e673cd374efbbcdc43afa2577a39858b1debb359b7b498b637c7e12930311b40f8c5d02d3a5544260150
   languageName: node
   linkType: hard
 
-"@yarnpkg/sdks@npm:^3.0.0-rc.5":
-  version: 3.0.0-rc.5
-  resolution: "@yarnpkg/sdks@npm:3.0.0-rc.5"
+"@yarnpkg/sdks@npm:^3.0.0-rc.14":
+  version: 3.0.0-rc.14
+  resolution: "@yarnpkg/sdks@npm:3.0.0-rc.14"
   dependencies:
-    "@yarnpkg/core": ^4.0.0-rc.5
-    "@yarnpkg/fslib": ^3.0.0-rc.5
-    "@yarnpkg/parsers": ^3.0.0-rc.5
+    "@yarnpkg/core": ^4.0.0-rc.14
+    "@yarnpkg/fslib": ^3.0.0-rc.14
+    "@yarnpkg/parsers": ^3.0.0-rc.14
     chalk: ^3.0.0
     clipanion: ^3.2.0-rc.10
     comment-json: ^2.2.0
@@ -234,16 +234,16 @@ __metadata:
     tslib: ^1.13.0
   bin:
     sdks: ./lib/cli.js
-  checksum: 8774ad8070840d9cf110f588803be03d7913c0c938964183c586026a16a6acfe08f00b72ef762e9ea3808d8be91c295618ec3219c4969f69fe58259b524df751
+  checksum: 55543c0be8e8c7a84feb693366230b7b789c5f25f186f47752aab5541fc5c56af095bd4aac7a073b70d20555d7374f7bf447771c11d2f6b55bc6a23d506d2c5e
   languageName: node
   linkType: hard
 
-"@yarnpkg/shell@npm:^4.0.0-rc.5":
-  version: 4.0.0-rc.5
-  resolution: "@yarnpkg/shell@npm:4.0.0-rc.5"
+"@yarnpkg/shell@npm:^4.0.0-rc.14":
+  version: 4.0.0-rc.14
+  resolution: "@yarnpkg/shell@npm:4.0.0-rc.14"
   dependencies:
-    "@yarnpkg/fslib": ^3.0.0-rc.5
-    "@yarnpkg/parsers": ^3.0.0-rc.5
+    "@yarnpkg/fslib": ^3.0.0-rc.14
+    "@yarnpkg/parsers": ^3.0.0-rc.14
     chalk: ^3.0.0
     clipanion: ^3.2.0-rc.10
     cross-spawn: 7.0.3
@@ -252,7 +252,7 @@ __metadata:
     tslib: ^1.13.0
   bin:
     shell: ./lib/cli.js
-  checksum: 5f8093fbb64b6ecb27c1b7b2a408950d949f8a1ce656dba30c7c7406e2dd29d75a9369ca42cafb1b15c1dc3f2ebf00268949b68312cdaf45abca2a818d9485c4
+  checksum: 37a8f39bf010742787c9a1cd7a5aca7c57382696d2a67ad83eed95759c07d3ecec37554aebc0f813e8878c2989145ea8e74a3c21b5d57c661248910a6166dcdd
   languageName: node
   linkType: hard
 
@@ -529,10 +529,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:^4.0.1":
-  version: 4.0.2
-  resolution: "diff@npm:4.0.2"
-  checksum: f2c09b0ce4e6b301c221addd83bf3f454c0bc00caa3dd837cf6c127d6edf7223aa2bbe3b688feea110b7f262adbfc845b757c44c8a9f8c0c5b15d8fa9ce9d20d
+"diff@npm:^5.1.0":
+  version: 5.1.0
+  resolution: "diff@npm:5.1.0"
+  checksum: c7bf0df7c9bfbe1cf8a678fd1b2137c4fb11be117a67bc18a0e03ae75105e8533dbfb1cda6b46beb3586ef5aed22143ef9d70713977d5fb1f9114e21455fba90
   languageName: node
   linkType: hard
 
@@ -609,9 +609,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-prettier@npm:^4.0.0":
-  version: 4.0.0
-  resolution: "eslint-plugin-prettier@npm:4.0.0"
+"eslint-plugin-prettier@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "eslint-plugin-prettier@npm:4.2.1"
   dependencies:
     prettier-linter-helpers: ^1.0.0
   peerDependencies:
@@ -620,7 +620,7 @@ __metadata:
   peerDependenciesMeta:
     eslint-config-prettier:
       optional: true
-  checksum: 03d69177a3c21fa2229c7e427ce604429f0b20ab7f411e2e824912f572a207c7f5a41fd1f0a95b9b8afe121e291c1b1f1dc1d44c7aad4b0837487f9c19f5210d
+  checksum: b9e839d2334ad8ec7a5589c5cb0f219bded260839a857d7a486997f9870e95106aa59b8756ff3f37202085ebab658de382b0267cae44c3a7f0eb0bcc03a4f6d6
   languageName: node
   linkType: hard
 
@@ -675,11 +675,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^8.15.0":
-  version: 8.15.0
-  resolution: "eslint@npm:8.15.0"
+"eslint@npm:^8.20.0":
+  version: 8.20.0
+  resolution: "eslint@npm:8.20.0"
   dependencies:
-    "@eslint/eslintrc": ^1.2.3
+    "@eslint/eslintrc": ^1.3.0
     "@humanwhocodes/config-array": ^0.9.2
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -697,7 +697,7 @@ __metadata:
     file-entry-cache: ^6.0.1
     functional-red-black-tree: ^1.0.1
     glob-parent: ^6.0.1
-    globals: ^13.6.0
+    globals: ^13.15.0
     ignore: ^5.2.0
     import-fresh: ^3.0.0
     imurmurhash: ^0.1.4
@@ -716,7 +716,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: d8896393832e154e1381a21041cfe4d12a73a76fac26ea27cabbc0e5fdac87918ad651f07f804ef6faacd3868572de3c1ec5d96edf5502bc999eff0c423638f7
+  checksum: a31adf390d71d916925586bc8467b48f620e93dd0416bc1e897d99265af88b48d4eba3985b5ff4653ae5cc46311a360d373574002277e159bb38a4363abf9228
   languageName: node
   linkType: hard
 
@@ -929,12 +929,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"globals@npm:^13.6.0, globals@npm:^13.9.0":
-  version: 13.12.1
-  resolution: "globals@npm:13.12.1"
+"globals@npm:^13.15.0":
+  version: 13.17.0
+  resolution: "globals@npm:13.17.0"
   dependencies:
     type-fest: ^0.20.2
-  checksum: cf7877629c8f2a293b0a7d09d1dcce7f2d426ec2528600c481c5b3f3d070b0a120eb2499439ac0404990fb8a5742c0165b1bf1f52603364001ddc89bea3dda24
+  checksum: fbaf4112e59b92c9f5575e85ce65e9e17c0b82711196ec5f58beb08599bbd92fd72703d6dfc9b080381fd35b644e1b11dcf25b38cc2341ec21df942594cbc8ce
   languageName: node
   linkType: hard
 
@@ -1277,12 +1277,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "node-boilerplate@workspace:."
   dependencies:
-    "@yarnpkg/sdks": ^3.0.0-rc.5
-    eslint: ^8.15.0
+    "@yarnpkg/sdks": ^3.0.0-rc.14
+    eslint: ^8.20.0
     eslint-config-prettier: ^8.5.0
     eslint-plugin-node: ^11.1.0
-    eslint-plugin-prettier: ^4.0.0
-    prettier: ^2.6.2
+    eslint-plugin-prettier: ^4.2.1
+    prettier: ^2.7.1
   languageName: unknown
   linkType: soft
 
@@ -1399,12 +1399,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.2":
-  version: 2.6.2
-  resolution: "prettier@npm:2.6.2"
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
   bin:
     prettier: bin-prettier.js
-  checksum: 48d08dde8e9fb1f5bccdd205baa7f192e9fc8bc98f86e1b97d919de804e28c806b0e6cc685e4a88211aa7987fa9668f30baae19580d87ced3ed0f2ec6572106f
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
   languageName: node
   linkType: hard
 
