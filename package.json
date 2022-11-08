@@ -4,10 +4,10 @@
 	"private": true,
 	"main": "src/index.js",
 	"type": "module",
-	"packageManager": "yarn@3.2.2",
+	"packageManager": "yarn@3.2.4",
 	"devDependencies": {
 		"@yarnpkg/sdks": "^3.0.0-rc.27",
-		"eslint": "^8.26.0",
+		"eslint": "^8.27.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-node": "^11.1.0",
 		"eslint-plugin-prettier": "^4.2.1",
